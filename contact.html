@@ -28,20 +28,35 @@
 
 <div class = "bg-imageC">
 
-  <div class = "containerC">
-
-        <h1 id="cHeader" >Contact Us!</h1>
-
-        <p id="cParagraph" >
-          Our email:  hastingsgardening@services.co.uk
-          We will answer you as quick as can be and give you top of the line suggestions and help with your decisions!
-        </p>
-
-        <p id="numberC">Our Telephone: 07000 000000</p>
-
-
-
-       </div>
+  <div class="containerC">
+    <h1 id="cHeader" >Contact Us!</h1>
+    <p>
+      Our email:  hastingsgardening@services.co.uk, or you can use the form below!
+      We will answer you as quick as can be and give you top of the line suggestions and help with your decisions!
+    </p>
+    <form action="submitted.html">
+  
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="Your full name..">
+  
+      <label for="lname">Contact Information</label>
+      <input type="text" id="lname" name="lastname" placeholder="Email or phone number..">
+  
+      <label for="country">Location</label>
+      <select id="country" name="country">
+        <option value="australia">Hastings</option>
+        <option value="canada">Bexhill</option>
+        <option value="usa">St Leonards</option>
+        <option value="other">Other (State where in Details)</option>
+      </select>
+  
+      <label for="subject">Details</label>
+      <textarea id="subject" name="subject" placeholder="Summarize your enquiry.." style="height:200px"></textarea>
+  
+      <input type="submit" value="Submit">
+  
+    </form>
+  </div> 
 
 
 

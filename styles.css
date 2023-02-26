@@ -136,7 +136,7 @@ nav ul li a{
     float: top;
 }
 
-.containerC {
+.containerogoughouh {
     position: sticky;
     background-color: rgb(0, 0, 0, 0.5);
     width:100%;
@@ -375,3 +375,41 @@ nav ul li a{
       transform: translate(25%, -50%);
       /* background-size: cover; */
 }
+
+ /* Style inputs with type="text", select elements and textareas */
+ input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #5fab31;
+  color: rgb(251, 255, 132);
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #165719;
+}
+
+/* Add a background color and some padding around the form */
+.containerC {
+  position: sticky;
+  border-radius: 5px;
+  background-color: #1f1f1f;
+  padding: 20px;
+  top: 20%;
+  left: 50%;
+  color: #f2f2f2;
+} 
